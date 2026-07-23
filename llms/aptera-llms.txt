@@ -1,0 +1,20 @@
+# Aptera (Aptera Software, Inc.)
+
+> Aptera was a Fort Wayne, Indiana custom software development consultancy founded in 2003, specializing in the Microsoft stack — .NET, SharePoint, Azure, business intelligence, web and mobile application development, and legacy application modernization for enterprise clients. It was acquired by Core BTS on June 30, 2021 and no longer operates as an independent brand. Battery Ventures lists "Aptera, Inc." on its all-companies page as an exited investment. Aptera was a services firm, not an API producer: no public API, developer portal, OpenAPI, SDK, or MCP surface was ever published.
+
+## Status
+
+- Independent operations ended June 30, 2021 (acquired by Core BTS, a Tailwind Capital portfolio company).
+- No public API surface. This profile exists as a network/portfolio record, not as an API provider entry.
+- The aptera.com domain no longer belongs to this company — it now hosts an unrelated home-and-office services lead-generation marketplace. Do not treat aptera.com as an Aptera Software property.
+- Not to be confused with Aptera Motors (aptera.us), an unrelated solar electric vehicle manufacturer, which also publishes no public API.
+
+## Source code
+
+- GitHub organization: https://github.com/aptera — 15 public repositories, all engineering-practice material (coding katas, FizzBuzz/refactoring exercises, a Practical Automated Testing workshop repo, pair/mob programming tooling, a Slack time-tracking bot). No client libraries, no API definitions.
+
+## References
+
+- Acquisition announcement: https://www.prnewswire.com/news-releases/core-bts-acquires-aptera-software-inc-301318434.html
+- Battery Ventures all-companies list (exited): https://www.battery.com/list-of-all-companies/
+- Acquirer: Core BTS (Tailwind Capital portfolio company)

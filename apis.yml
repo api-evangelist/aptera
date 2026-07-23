@@ -1,7 +1,30 @@
 aid: aptera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aptera.png
 name: Aptera
-description: Aptera is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Aptera (Aptera Software, Inc.) was a custom software development consultancy
+  based in Fort Wayne, Indiana, founded in 2003 and specializing in the Microsoft stack
+  — .NET, SharePoint, Azure, business intelligence, and web and mobile application
+  development, plus legacy application modernization, DevOps, UI/UX design, quality
+  assurance, and security and compliance services for enterprise clients. It employed
+  more than 100 people and was the largest web development firm in northeast Indiana
+  before being acquired by IT services provider Core BTS on June 30, 2021, after which
+  it ceased to operate as an independent brand. Battery Ventures lists "Aptera, Inc."
+  on its all-companies page as an exited investment, which is how this record entered
+  the API Evangelist network. Aptera was a services firm rather than an API producer:
+  enrichment found no public API, developer portal, OpenAPI definition, SDK, webhook
+  surface, or MCP server. Its only surviving public technical footprint is a GitHub
+  organization of engineering-practice repositories (coding katas and workshop material).'
 url: https://raw.githubusercontent.com/api-evangelist/aptera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,42 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Core BTS on 2021-06-30; no longer an independent company.
+  Battery Ventures lists it as an exited investment.
+x-disambiguation: Not Aptera Motors (aptera.us), the unrelated solar electric vehicle
+  manufacturer. The aptera.com domain is no longer controlled by this company and now
+  hosts an unrelated home-and-office services lead-generation marketplace; apterainc.com
+  is a separate UK digital marketing agency.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Software Development
+- Consulting
+- Application Modernization
+- Microsoft
+- .NET
+- SharePoint
+- Azure
+- Mobile Applications
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  name: GitHub Organization
+  url: https://github.com/aptera
+- type: LLMsTxt
+  name: llms.txt
+  url: llms/aptera-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
